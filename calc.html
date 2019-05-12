@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style type="text/css">
+button
+{
+	padding: 0;
+border: none;
+background: none;
+}
+#special
+{
+	width:150px;
+		height: 80px;
+}
+	.sq{
+		width: 100px;
+		height: 100px;
+		background-color: white;
+		border-color: black;
+		align-content: center;
+		position: relative;
+	}
+	.rect
+	{
+		width:300px;
+		height: 100px;
+	
+	}
+	.sqbig
+	{
+		width:300px;
+		height: 300px;
+		border: 2px red;
+	}
+	.sqsmall
+	{
+		width:25px;
+		height: 25px;
+	}
+	.text
+	{
+		font-size: 30px;
+		font-family: "Times New Roman";
+			}
+			.textsmall
+			{
+				font-size: 10px;
+		font-family: "Times New Roman";
+			}
+			form
+			{
+				text-align: center;
+				display: inline-block;
+				background-color: #FFD700;
+			}
+			body
+			{
+				background-color:  crimson;
+			}
+</style>
+
+	<title>	Calculator</title>
+	<script type="text/javascript" src="calc.js"></script>
+</head>
+<body class="text">
+Welcome to the calculator application
+<br><div>
+
+<input id = "ip1" class="rect"  name="Number"></input>
+
+<table >
+
+<tr class="rect">
+<td class="sq" ><button class="text" id="but1">1</button></td>
+<td class="sq" ><button class="text" id="but2">2</button></td>
+<td class="sq" ><button class="text" id="but3">3</button></td>
+</tr>
+<tr class="rect">
+<td class="sq" ><button class="text" id="but4">4</button></td>
+<td class="sq" ><button class="text" id="but5">5</button></td>
+<td class="sq" ><button class="text" id="but6">6</button></td>
+</tr>
+<tr class="rect">
+<td class="sq" ><button class="text" id="but7">7</button></td>
+<td class="sq" ><button class="text" id="but8">8</button></td>
+<td class="sq"><button class="text" id="but9">9</button></td>
+</tr>
+</tr>
+<tr class="rect">
+<td class="sq" ><button class="text" id="but+">+</button></td>
+<td class="sq" ><button class="text" id="but-">-</button></td>
+<td class="sq" ><button class="text" id="but*">*</button></td>
+</tr>
+<tr class="rect">
+<td class="sq"></td>
+<td class="sq" ><button class="text" id="but0">0</button></td>
+<td class="sq"></td>
+</tr>
+<tr class="rect">
+<td class="sq" ><button class="text" id="but/">/</button></td>
+<td class="sq" ><button class="text" id="but=">=</button></td>
+<td class="sq" ><button class="text" id="butAC">AC</button></td>
+</tr>
+
+
+
+
+</table>
+
+</div>
+
+</body>
+</html>
